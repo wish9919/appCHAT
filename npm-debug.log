@@ -1,0 +1,751 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData socket.io-client
+20 silly mapToRegistry name socket.io-client
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/socket.io-client
+24 verbose request uri https://registry.npmjs.org/socket.io-client
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 10:40:54 AM
+27 verbose request id 4ec28fa9f2ccc491
+28 verbose etag W/"b133aa995f4a46996cd4c5f4f0499bd5"
+29 verbose lastModified Wed, 16 Oct 2019 21:27:38 GMT
+30 http request GET https://registry.npmjs.org/socket.io-client
+31 http 304 https://registry.npmjs.org/socket.io-client
+32 verbose headers { date: 'Sat, 28 Mar 2020 05:10:54 GMT',
+32 verbose headers   connection: 'keep-alive',
+32 verbose headers   'set-cookie':
+32 verbose headers    [ '__cfduid=d1319b0b3b2bc7e9297f72eede96862481585372254; expires=Mon, 27-Apr-20 05:10:54 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+32 verbose headers   'cf-ray': '57aed8ec0fbfd791-MRS',
+32 verbose headers   age: '669',
+32 verbose headers   'cache-control': 'public, max-age=300',
+32 verbose headers   etag: '"b133aa995f4a46996cd4c5f4f0499bd5"',
+32 verbose headers   'last-modified': 'Wed, 16 Oct 2019 21:27:38 GMT',
+32 verbose headers   vary: 'Accept-Encoding',
+32 verbose headers   'cf-cache-status': 'HIT',
+32 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+32 verbose headers   server: 'cloudflare' }
+33 silly get cb [ 304,
+33 silly get   { date: 'Sat, 28 Mar 2020 05:10:54 GMT',
+33 silly get     connection: 'keep-alive',
+33 silly get     'set-cookie':
+33 silly get      [ '__cfduid=d1319b0b3b2bc7e9297f72eede96862481585372254; expires=Mon, 27-Apr-20 05:10:54 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+33 silly get     'cf-ray': '57aed8ec0fbfd791-MRS',
+33 silly get     age: '669',
+33 silly get     'cache-control': 'public, max-age=300',
+33 silly get     etag: '"b133aa995f4a46996cd4c5f4f0499bd5"',
+33 silly get     'last-modified': 'Wed, 16 Oct 2019 21:27:38 GMT',
+33 silly get     vary: 'Accept-Encoding',
+33 silly get     'cf-cache-status': 'HIT',
+33 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+33 silly get     server: 'cloudflare' } ]
+34 verbose etag https://registry.npmjs.org/socket.io-client from cache
+35 verbose get saving socket.io-client to /home/wish9919/.npm/registry.npmjs.org/socket.io-client/.cache.json
+36 silly resolveWithNewModule socket.io-client@2.3.0 checking installable status
+37 silly cache add args [ 'socket.io-client@2.3.0', null ]
+38 verbose cache add spec socket.io-client@2.3.0
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'socket.io-client@2.3.0',
+39 silly cache add   scope: null,
+39 silly cache add   name: 'socket.io-client',
+39 silly cache add   rawSpec: '2.3.0',
+39 silly cache add   spec: '2.3.0',
+39 silly cache add   type: 'version' }
+40 silly addNamed socket.io-client@2.3.0
+41 verbose addNamed "2.3.0" is a plain semver version for socket.io-client
+42 silly mapToRegistry name socket.io-client
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npmjs.org/
+45 silly mapToRegistry uri https://registry.npmjs.org/socket.io-client
+46 verbose addNameVersion registry:https://registry.npmjs.org/socket.io-client not in flight; fetching
+47 verbose get https://registry.npmjs.org/socket.io-client not expired, no request
+48 silly cache afterAdd socket.io-client@2.3.0
+49 verbose afterAdd /home/wish9919/.npm/socket.io-client/2.3.0/package/package.json not in flight; writing
+50 verbose afterAdd /home/wish9919/.npm/socket.io-client/2.3.0/package/package.json written
+51 silly fetchNamedPackageData socket.io-parser
+52 silly mapToRegistry name socket.io-parser
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry uri https://registry.npmjs.org/socket.io-parser
+56 verbose request uri https://registry.npmjs.org/socket.io-parser
+57 verbose request no auth needed
+58 info attempt registry request try #1 at 10:40:55 AM
+59 verbose etag W/"f65c5c6446b38d789e819970e69c205b"
+60 verbose lastModified Fri, 20 Sep 2019 09:02:12 GMT
+61 http request GET https://registry.npmjs.org/socket.io-parser
+62 http 304 https://registry.npmjs.org/socket.io-parser
+63 verbose headers { date: 'Sat, 28 Mar 2020 05:10:54 GMT',
+63 verbose headers   connection: 'keep-alive',
+63 verbose headers   'set-cookie':
+63 verbose headers    [ '__cfduid=d1319b0b3b2bc7e9297f72eede96862481585372254; expires=Mon, 27-Apr-20 05:10:54 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+63 verbose headers   'cf-ray': '57aed8edeaa3d791-MRS',
+63 verbose headers   'cache-control': 'public, max-age=300',
+63 verbose headers   etag: '"f65c5c6446b38d789e819970e69c205b"',
+63 verbose headers   'last-modified': 'Fri, 20 Sep 2019 09:02:12 GMT',
+63 verbose headers   vary: 'Accept-Encoding',
+63 verbose headers   'cf-cache-status': 'HIT',
+63 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+63 verbose headers   server: 'cloudflare' }
+64 silly get cb [ 304,
+64 silly get   { date: 'Sat, 28 Mar 2020 05:10:54 GMT',
+64 silly get     connection: 'keep-alive',
+64 silly get     'set-cookie':
+64 silly get      [ '__cfduid=d1319b0b3b2bc7e9297f72eede96862481585372254; expires=Mon, 27-Apr-20 05:10:54 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+64 silly get     'cf-ray': '57aed8edeaa3d791-MRS',
+64 silly get     'cache-control': 'public, max-age=300',
+64 silly get     etag: '"f65c5c6446b38d789e819970e69c205b"',
+64 silly get     'last-modified': 'Fri, 20 Sep 2019 09:02:12 GMT',
+64 silly get     vary: 'Accept-Encoding',
+64 silly get     'cf-cache-status': 'HIT',
+64 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+64 silly get     server: 'cloudflare' } ]
+65 verbose etag https://registry.npmjs.org/socket.io-parser from cache
+66 verbose get saving socket.io-parser to /home/wish9919/.npm/registry.npmjs.org/socket.io-parser/.cache.json
+67 silly resolveWithNewModule socket.io-parser@3.3.0 checking installable status
+68 silly cache add args [ 'socket.io-parser@~3.3.0', null ]
+69 verbose cache add spec socket.io-parser@~3.3.0
+70 silly cache add parsed spec Result {
+70 silly cache add   raw: 'socket.io-parser@~3.3.0',
+70 silly cache add   scope: null,
+70 silly cache add   name: 'socket.io-parser',
+70 silly cache add   rawSpec: '~3.3.0',
+70 silly cache add   spec: '>=3.3.0 <3.4.0',
+70 silly cache add   type: 'range' }
+71 silly addNamed socket.io-parser@>=3.3.0 <3.4.0
+72 verbose addNamed ">=3.3.0 <3.4.0" is a valid semver range for socket.io-parser
+73 silly addNameRange { name: 'socket.io-parser',
+73 silly addNameRange   range: '>=3.3.0 <3.4.0',
+73 silly addNameRange   hasData: false }
+74 silly mapToRegistry name socket.io-parser
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry uri https://registry.npmjs.org/socket.io-parser
+78 verbose addNameRange registry:https://registry.npmjs.org/socket.io-parser not in flight; fetching
+79 verbose get https://registry.npmjs.org/socket.io-parser not expired, no request
+80 silly addNameRange number 2 { name: 'socket.io-parser',
+80 silly addNameRange   range: '>=3.3.0 <3.4.0',
+80 silly addNameRange   hasData: true }
+81 silly addNameRange versions [ 'socket.io-parser',
+81 silly addNameRange   [ '1.0.1',
+81 silly addNameRange     '1.0.2',
+81 silly addNameRange     '1.1.0',
+81 silly addNameRange     '1.1.1',
+81 silly addNameRange     '1.1.2',
+81 silly addNameRange     '2.0.0',
+81 silly addNameRange     '2.1.0',
+81 silly addNameRange     '2.1.1',
+81 silly addNameRange     '2.1.2',
+81 silly addNameRange     '2.1.3',
+81 silly addNameRange     '2.1.4',
+81 silly addNameRange     '2.1.5',
+81 silly addNameRange     '2.2.0',
+81 silly addNameRange     '2.2.1',
+81 silly addNameRange     '2.2.2',
+81 silly addNameRange     '2.2.3',
+81 silly addNameRange     '2.2.4',
+81 silly addNameRange     '2.2.5',
+81 silly addNameRange     '2.2.6',
+81 silly addNameRange     '2.3.0',
+81 silly addNameRange     '2.3.1',
+81 silly addNameRange     '2.3.2',
+81 silly addNameRange     '3.0.0',
+81 silly addNameRange     '3.1.0',
+81 silly addNameRange     '3.1.1',
+81 silly addNameRange     '3.1.2',
+81 silly addNameRange     '3.1.3',
+81 silly addNameRange     '3.2.0',
+81 silly addNameRange     '3.3.0',
+81 silly addNameRange     '3.4.0' ] ]
+82 silly addNamed socket.io-parser@3.3.0
+83 verbose addNamed "3.3.0" is a plain semver version for socket.io-parser
+84 silly cache afterAdd socket.io-parser@3.3.0
+85 verbose afterAdd /home/wish9919/.npm/socket.io-parser/3.3.0/package/package.json not in flight; writing
+86 verbose afterAdd /home/wish9919/.npm/socket.io-parser/3.3.0/package/package.json written
+87 silly fetchNamedPackageData debug
+88 silly mapToRegistry name debug
+89 silly mapToRegistry using default registry
+90 silly mapToRegistry registry https://registry.npmjs.org/
+91 silly mapToRegistry uri https://registry.npmjs.org/debug
+92 verbose request uri https://registry.npmjs.org/debug
+93 verbose request no auth needed
+94 info attempt registry request try #1 at 10:40:55 AM
+95 verbose etag W/"abbb24e6a13c9543e39fb70d7176a804"
+96 verbose lastModified Thu, 12 Mar 2020 22:22:15 GMT
+97 http request GET https://registry.npmjs.org/debug
+98 http 304 https://registry.npmjs.org/debug
+99 verbose headers { date: 'Sat, 28 Mar 2020 05:10:54 GMT',
+99 verbose headers   connection: 'keep-alive',
+99 verbose headers   'set-cookie':
+99 verbose headers    [ '__cfduid=d1319b0b3b2bc7e9297f72eede96862481585372254; expires=Mon, 27-Apr-20 05:10:54 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+99 verbose headers   'cf-ray': '57aed8ef9d0ad791-MRS',
+99 verbose headers   age: '3054',
+99 verbose headers   'cache-control': 'public, max-age=300',
+99 verbose headers   etag: '"abbb24e6a13c9543e39fb70d7176a804"',
+99 verbose headers   'last-modified': 'Thu, 12 Mar 2020 22:22:15 GMT',
+99 verbose headers   vary: 'Accept-Encoding',
+99 verbose headers   'cf-cache-status': 'HIT',
+99 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+99 verbose headers   server: 'cloudflare' }
+100 silly get cb [ 304,
+100 silly get   { date: 'Sat, 28 Mar 2020 05:10:54 GMT',
+100 silly get     connection: 'keep-alive',
+100 silly get     'set-cookie':
+100 silly get      [ '__cfduid=d1319b0b3b2bc7e9297f72eede96862481585372254; expires=Mon, 27-Apr-20 05:10:54 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+100 silly get     'cf-ray': '57aed8ef9d0ad791-MRS',
+100 silly get     age: '3054',
+100 silly get     'cache-control': 'public, max-age=300',
+100 silly get     etag: '"abbb24e6a13c9543e39fb70d7176a804"',
+100 silly get     'last-modified': 'Thu, 12 Mar 2020 22:22:15 GMT',
+100 silly get     vary: 'Accept-Encoding',
+100 silly get     'cf-cache-status': 'HIT',
+100 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+100 silly get     server: 'cloudflare' } ]
+101 verbose etag https://registry.npmjs.org/debug from cache
+102 verbose get saving debug to /home/wish9919/.npm/registry.npmjs.org/debug/.cache.json
+103 silly resolveWithNewModule debug@3.1.0 checking installable status
+104 silly cache add args [ 'debug@~3.1.0', null ]
+105 verbose cache add spec debug@~3.1.0
+106 silly cache add parsed spec Result {
+106 silly cache add   raw: 'debug@~3.1.0',
+106 silly cache add   scope: null,
+106 silly cache add   name: 'debug',
+106 silly cache add   rawSpec: '~3.1.0',
+106 silly cache add   spec: '>=3.1.0 <3.2.0',
+106 silly cache add   type: 'range' }
+107 silly addNamed debug@>=3.1.0 <3.2.0
+108 verbose addNamed ">=3.1.0 <3.2.0" is a valid semver range for debug
+109 silly addNameRange { name: 'debug', range: '>=3.1.0 <3.2.0', hasData: false }
+110 silly mapToRegistry name debug
+111 silly mapToRegistry using default registry
+112 silly mapToRegistry registry https://registry.npmjs.org/
+113 silly mapToRegistry uri https://registry.npmjs.org/debug
+114 verbose addNameRange registry:https://registry.npmjs.org/debug not in flight; fetching
+115 verbose get https://registry.npmjs.org/debug not expired, no request
+116 silly addNameRange number 2 { name: 'debug', range: '>=3.1.0 <3.2.0', hasData: true }
+117 silly addNameRange versions [ 'debug',
+117 silly addNameRange   [ '0.0.1',
+117 silly addNameRange     '0.1.0',
+117 silly addNameRange     '0.2.0',
+117 silly addNameRange     '0.3.0',
+117 silly addNameRange     '0.4.0',
+117 silly addNameRange     '0.4.1',
+117 silly addNameRange     '0.5.0',
+117 silly addNameRange     '0.6.0',
+117 silly addNameRange     '0.7.0',
+117 silly addNameRange     '0.7.1',
+117 silly addNameRange     '0.7.2',
+117 silly addNameRange     '0.7.3',
+117 silly addNameRange     '0.7.4',
+117 silly addNameRange     '0.8.0',
+117 silly addNameRange     '0.8.1',
+117 silly addNameRange     '1.0.0',
+117 silly addNameRange     '1.0.1',
+117 silly addNameRange     '1.0.2',
+117 silly addNameRange     '1.0.3',
+117 silly addNameRange     '1.0.4',
+117 silly addNameRange     '2.0.0',
+117 silly addNameRange     '2.1.0',
+117 silly addNameRange     '2.1.1',
+117 silly addNameRange     '2.1.2',
+117 silly addNameRange     '2.1.3',
+117 silly addNameRange     '2.2.0',
+117 silly addNameRange     '2.3.0',
+117 silly addNameRange     '2.3.1',
+117 silly addNameRange     '2.3.2',
+117 silly addNameRange     '2.3.3',
+117 silly addNameRange     '2.4.0',
+117 silly addNameRange     '2.4.1',
+117 silly addNameRange     '2.4.2',
+117 silly addNameRange     '2.4.3',
+117 silly addNameRange     '2.4.4',
+117 silly addNameRange     '2.4.5',
+117 silly addNameRange     '2.5.0',
+117 silly addNameRange     '2.5.1',
+117 silly addNameRange     '2.5.2',
+117 silly addNameRange     '2.6.0',
+117 silly addNameRange     '2.6.1',
+117 silly addNameRange     '2.6.2',
+117 silly addNameRange     '2.6.3',
+117 silly addNameRange     '2.6.4',
+117 silly addNameRange     '2.6.5',
+117 silly addNameRange     '2.6.6',
+117 silly addNameRange     '2.6.7',
+117 silly addNameRange     '2.6.8',
+117 silly addNameRange     '1.0.5',
+117 silly addNameRange     '3.0.0',
+117 silly addNameRange     '3.0.1',
+117 silly addNameRange     '2.6.9',
+117 silly addNameRange     '3.1.0',
+117 silly addNameRange     '3.2.0',
+117 silly addNameRange     '3.2.1',
+117 silly addNameRange     '3.2.2',
+117 silly addNameRange     '3.2.3',
+117 silly addNameRange     '4.0.0',
+117 silly addNameRange     '3.2.4',
+117 silly addNameRange     '3.2.5',
+117 silly addNameRange     '4.0.1',
+117 silly addNameRange     '4.1.0',
+117 silly addNameRange     '3.2.6',
+117 silly addNameRange     '4.1.1' ] ]
+118 silly addNamed debug@3.1.0
+119 verbose addNamed "3.1.0" is a plain semver version for debug
+120 silly cache afterAdd debug@3.1.0
+121 verbose afterAdd /home/wish9919/.npm/debug/3.1.0/package/package.json not in flight; writing
+122 verbose afterAdd /home/wish9919/.npm/debug/3.1.0/package/package.json written
+123 silly fetchNamedPackageData ms
+124 silly mapToRegistry name ms
+125 silly mapToRegistry using default registry
+126 silly mapToRegistry registry https://registry.npmjs.org/
+127 silly mapToRegistry uri https://registry.npmjs.org/ms
+128 verbose request uri https://registry.npmjs.org/ms
+129 verbose request no auth needed
+130 info attempt registry request try #1 at 10:40:55 AM
+131 verbose etag W/"e0b373a310a631c8b865a88c9c34235a"
+132 verbose lastModified Fri, 20 Mar 2020 19:16:21 GMT
+133 http request GET https://registry.npmjs.org/ms
+134 http 304 https://registry.npmjs.org/ms
+135 verbose headers { date: 'Sat, 28 Mar 2020 05:10:54 GMT',
+135 verbose headers   connection: 'keep-alive',
+135 verbose headers   'set-cookie':
+135 verbose headers    [ '__cfduid=d1319b0b3b2bc7e9297f72eede96862481585372254; expires=Mon, 27-Apr-20 05:10:54 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+135 verbose headers   'cf-ray': '57aed8f12f9ad791-MRS',
+135 verbose headers   age: '1885',
+135 verbose headers   'cache-control': 'public, max-age=300',
+135 verbose headers   etag: '"e0b373a310a631c8b865a88c9c34235a"',
+135 verbose headers   'last-modified': 'Fri, 20 Mar 2020 19:16:21 GMT',
+135 verbose headers   vary: 'Accept-Encoding',
+135 verbose headers   'cf-cache-status': 'HIT',
+135 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+135 verbose headers   server: 'cloudflare' }
+136 silly get cb [ 304,
+136 silly get   { date: 'Sat, 28 Mar 2020 05:10:54 GMT',
+136 silly get     connection: 'keep-alive',
+136 silly get     'set-cookie':
+136 silly get      [ '__cfduid=d1319b0b3b2bc7e9297f72eede96862481585372254; expires=Mon, 27-Apr-20 05:10:54 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+136 silly get     'cf-ray': '57aed8f12f9ad791-MRS',
+136 silly get     age: '1885',
+136 silly get     'cache-control': 'public, max-age=300',
+136 silly get     etag: '"e0b373a310a631c8b865a88c9c34235a"',
+136 silly get     'last-modified': 'Fri, 20 Mar 2020 19:16:21 GMT',
+136 silly get     vary: 'Accept-Encoding',
+136 silly get     'cf-cache-status': 'HIT',
+136 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+136 silly get     server: 'cloudflare' } ]
+137 verbose etag https://registry.npmjs.org/ms from cache
+138 verbose get saving ms to /home/wish9919/.npm/registry.npmjs.org/ms/.cache.json
+139 silly resolveWithNewModule ms@2.0.0 checking installable status
+140 silly cache add args [ 'ms@2.0.0', null ]
+141 verbose cache add spec ms@2.0.0
+142 silly cache add parsed spec Result {
+142 silly cache add   raw: 'ms@2.0.0',
+142 silly cache add   scope: null,
+142 silly cache add   name: 'ms',
+142 silly cache add   rawSpec: '2.0.0',
+142 silly cache add   spec: '2.0.0',
+142 silly cache add   type: 'version' }
+143 silly addNamed ms@2.0.0
+144 verbose addNamed "2.0.0" is a plain semver version for ms
+145 silly mapToRegistry name ms
+146 silly mapToRegistry using default registry
+147 silly mapToRegistry registry https://registry.npmjs.org/
+148 silly mapToRegistry uri https://registry.npmjs.org/ms
+149 verbose addNameVersion registry:https://registry.npmjs.org/ms not in flight; fetching
+150 verbose get https://registry.npmjs.org/ms not expired, no request
+151 silly cache afterAdd ms@2.0.0
+152 verbose afterAdd /home/wish9919/.npm/ms/2.0.0/package/package.json not in flight; writing
+153 verbose afterAdd /home/wish9919/.npm/ms/2.0.0/package/package.json written
+154 silly loadAllDepsIntoIdealTree Finishing
+155 silly idealTree:prePrune node-stream@1.0.0
+155 silly idealTree:prePrune ├── accepts@1.3.7
+155 silly idealTree:prePrune ├── after@0.8.2
+155 silly idealTree:prePrune ├── arraybuffer.slice@0.0.7
+155 silly idealTree:prePrune ├── async-limiter@1.0.1
+155 silly idealTree:prePrune ├── backo2@1.0.2
+155 silly idealTree:prePrune ├── base64-arraybuffer@0.1.5
+155 silly idealTree:prePrune ├── base64id@2.0.0
+155 silly idealTree:prePrune ├── better-assert@1.0.2
+155 silly idealTree:prePrune ├── blob@0.0.5
+155 silly idealTree:prePrune ├── callsite@1.0.0
+155 silly idealTree:prePrune ├── component-bind@1.0.0
+155 silly idealTree:prePrune ├── component-emitter@1.2.1
+155 silly idealTree:prePrune ├── component-inherit@0.0.3
+155 silly idealTree:prePrune ├── cookie@0.3.1
+155 silly idealTree:prePrune ├── debug@4.1.1
+155 silly idealTree:prePrune ├─┬ engine.io-client@3.4.0
+155 silly idealTree:prePrune │ └── ws@6.1.4
+155 silly idealTree:prePrune ├── engine.io-parser@2.2.0
+155 silly idealTree:prePrune ├── engine.io@3.4.0
+155 silly idealTree:prePrune ├── has-binary2@1.0.3
+155 silly idealTree:prePrune ├── has-cors@1.1.0
+155 silly idealTree:prePrune ├── indexof@0.0.1
+155 silly idealTree:prePrune ├── isarray@2.0.1
+155 silly idealTree:prePrune ├── mime-db@1.43.0
+155 silly idealTree:prePrune ├── mime-types@2.1.26
+155 silly idealTree:prePrune ├── ms@2.1.2
+155 silly idealTree:prePrune ├── negotiator@0.6.2
+155 silly idealTree:prePrune ├── object-component@0.0.3
+155 silly idealTree:prePrune ├── parseqs@0.0.5
+155 silly idealTree:prePrune ├── parseuri@0.0.5
+155 silly idealTree:prePrune ├── socket.io-adapter@1.1.2
+155 silly idealTree:prePrune ├─┬ socket.io-client@2.3.0
+155 silly idealTree:prePrune │ ├── ms@2.0.0
+155 silly idealTree:prePrune │ └─┬ socket.io-parser@3.3.0
+155 silly idealTree:prePrune │   └── debug@3.1.0
+155 silly idealTree:prePrune ├── socket.io-parser@3.4.0
+155 silly idealTree:prePrune ├── socket.io@2.3.0
+155 silly idealTree:prePrune ├── to-array@0.1.4
+155 silly idealTree:prePrune ├── ws@7.2.3
+155 silly idealTree:prePrune ├── xmlhttprequest-ssl@1.5.5
+155 silly idealTree:prePrune └── yeast@0.1.2
+156 silly loadIdealTree Finishing
+157 silly currentTree node-stream@1.0.0
+157 silly currentTree ├── accepts@1.3.7
+157 silly currentTree ├── after@0.8.2
+157 silly currentTree ├── arraybuffer.slice@0.0.7
+157 silly currentTree ├── async-limiter@1.0.1
+157 silly currentTree ├── backo2@1.0.2
+157 silly currentTree ├── base64-arraybuffer@0.1.5
+157 silly currentTree ├── base64id@2.0.0
+157 silly currentTree ├── better-assert@1.0.2
+157 silly currentTree ├── blob@0.0.5
+157 silly currentTree ├── callsite@1.0.0
+157 silly currentTree ├── component-bind@1.0.0
+157 silly currentTree ├── component-emitter@1.2.1
+157 silly currentTree ├── component-inherit@0.0.3
+157 silly currentTree ├── cookie@0.3.1
+157 silly currentTree ├── debug@4.1.1
+157 silly currentTree ├─┬ engine.io-client@3.4.0
+157 silly currentTree │ └── ws@6.1.4
+157 silly currentTree ├── engine.io-parser@2.2.0
+157 silly currentTree ├── engine.io@3.4.0
+157 silly currentTree ├── has-binary2@1.0.3
+157 silly currentTree ├── has-cors@1.1.0
+157 silly currentTree ├── indexof@0.0.1
+157 silly currentTree ├── isarray@2.0.1
+157 silly currentTree ├── mime-db@1.43.0
+157 silly currentTree ├── mime-types@2.1.26
+157 silly currentTree ├── ms@2.1.2
+157 silly currentTree ├── negotiator@0.6.2
+157 silly currentTree ├── object-component@0.0.3
+157 silly currentTree ├── parseqs@0.0.5
+157 silly currentTree ├── parseuri@0.0.5
+157 silly currentTree ├── socket.io-adapter@1.1.2
+157 silly currentTree ├── socket.io-parser@3.4.0
+157 silly currentTree ├── socket.io@2.3.0
+157 silly currentTree ├── to-array@0.1.4
+157 silly currentTree ├── ws@7.2.3
+157 silly currentTree ├── xmlhttprequest-ssl@1.5.5
+157 silly currentTree └── yeast@0.1.2
+158 silly idealTree node-stream@1.0.0
+158 silly idealTree ├── accepts@1.3.7
+158 silly idealTree ├── after@0.8.2
+158 silly idealTree ├── arraybuffer.slice@0.0.7
+158 silly idealTree ├── async-limiter@1.0.1
+158 silly idealTree ├── backo2@1.0.2
+158 silly idealTree ├── base64-arraybuffer@0.1.5
+158 silly idealTree ├── base64id@2.0.0
+158 silly idealTree ├── better-assert@1.0.2
+158 silly idealTree ├── blob@0.0.5
+158 silly idealTree ├── callsite@1.0.0
+158 silly idealTree ├── component-bind@1.0.0
+158 silly idealTree ├── component-emitter@1.2.1
+158 silly idealTree ├── component-inherit@0.0.3
+158 silly idealTree ├── cookie@0.3.1
+158 silly idealTree ├── debug@4.1.1
+158 silly idealTree ├─┬ engine.io-client@3.4.0
+158 silly idealTree │ └── ws@6.1.4
+158 silly idealTree ├── engine.io-parser@2.2.0
+158 silly idealTree ├── engine.io@3.4.0
+158 silly idealTree ├── has-binary2@1.0.3
+158 silly idealTree ├── has-cors@1.1.0
+158 silly idealTree ├── indexof@0.0.1
+158 silly idealTree ├── isarray@2.0.1
+158 silly idealTree ├── mime-db@1.43.0
+158 silly idealTree ├── mime-types@2.1.26
+158 silly idealTree ├── ms@2.1.2
+158 silly idealTree ├── negotiator@0.6.2
+158 silly idealTree ├── object-component@0.0.3
+158 silly idealTree ├── parseqs@0.0.5
+158 silly idealTree ├── parseuri@0.0.5
+158 silly idealTree ├── socket.io-adapter@1.1.2
+158 silly idealTree ├─┬ socket.io-client@2.3.0
+158 silly idealTree │ ├── ms@2.0.0
+158 silly idealTree │ └─┬ socket.io-parser@3.3.0
+158 silly idealTree │   └── debug@3.1.0
+158 silly idealTree ├── socket.io-parser@3.4.0
+158 silly idealTree ├── socket.io@2.3.0
+158 silly idealTree ├── to-array@0.1.4
+158 silly idealTree ├── ws@7.2.3
+158 silly idealTree ├── xmlhttprequest-ssl@1.5.5
+158 silly idealTree └── yeast@0.1.2
+159 silly generateActionsToTake Starting
+160 silly install generateActionsToTake
+161 silly generateActionsToTake Finishing
+162 silly diffTrees action count 5
+163 silly diffTrees add ms@2.0.0
+164 silly diffTrees add debug@3.1.0
+165 silly diffTrees add socket.io-parser@3.3.0
+166 silly diffTrees add socket.io-client@2.3.0
+167 silly diffTrees update socket.io@2.3.0
+168 silly decomposeActions action count 40
+169 silly decomposeActions fetch ms@2.0.0
+170 silly decomposeActions extract ms@2.0.0
+171 silly decomposeActions test ms@2.0.0
+172 silly decomposeActions preinstall ms@2.0.0
+173 silly decomposeActions build ms@2.0.0
+174 silly decomposeActions install ms@2.0.0
+175 silly decomposeActions postinstall ms@2.0.0
+176 silly decomposeActions finalize ms@2.0.0
+177 silly decomposeActions fetch debug@3.1.0
+178 silly decomposeActions extract debug@3.1.0
+179 silly decomposeActions test debug@3.1.0
+180 silly decomposeActions preinstall debug@3.1.0
+181 silly decomposeActions build debug@3.1.0
+182 silly decomposeActions install debug@3.1.0
+183 silly decomposeActions postinstall debug@3.1.0
+184 silly decomposeActions finalize debug@3.1.0
+185 silly decomposeActions fetch socket.io-parser@3.3.0
+186 silly decomposeActions extract socket.io-parser@3.3.0
+187 silly decomposeActions test socket.io-parser@3.3.0
+188 silly decomposeActions preinstall socket.io-parser@3.3.0
+189 silly decomposeActions build socket.io-parser@3.3.0
+190 silly decomposeActions install socket.io-parser@3.3.0
+191 silly decomposeActions postinstall socket.io-parser@3.3.0
+192 silly decomposeActions finalize socket.io-parser@3.3.0
+193 silly decomposeActions fetch socket.io-client@2.3.0
+194 silly decomposeActions extract socket.io-client@2.3.0
+195 silly decomposeActions test socket.io-client@2.3.0
+196 silly decomposeActions preinstall socket.io-client@2.3.0
+197 silly decomposeActions build socket.io-client@2.3.0
+198 silly decomposeActions install socket.io-client@2.3.0
+199 silly decomposeActions postinstall socket.io-client@2.3.0
+200 silly decomposeActions finalize socket.io-client@2.3.0
+201 silly decomposeActions fetch socket.io@2.3.0
+202 silly decomposeActions extract socket.io@2.3.0
+203 silly decomposeActions test socket.io@2.3.0
+204 silly decomposeActions preinstall socket.io@2.3.0
+205 silly decomposeActions build socket.io@2.3.0
+206 silly decomposeActions install socket.io@2.3.0
+207 silly decomposeActions postinstall socket.io@2.3.0
+208 silly decomposeActions finalize socket.io@2.3.0
+209 silly executeActions Starting
+210 silly install executeActions
+211 silly doSerial global-install 0
+212 silly doParallel fetch 5
+213 verbose lock using /home/wish9919/.npm/_locks/staging-200f7f67931dca78.lock for /mnt/d/Learn/Node.js/node-stream/node_modules/.staging
+214 silly doParallel extract 5
+215 silly extract ms@2.0.0
+216 silly extract debug@3.1.0
+217 silly extract socket.io-parser@3.3.0
+218 silly extract socket.io-client@2.3.0
+219 silly extract socket.io@2.3.0
+220 verbose unbuild node_modules/.staging/ms-3e2d6a28
+221 verbose unbuild node_modules/.staging/debug-057be807
+222 verbose unbuild node_modules/.staging/socket.io-parser-0ccfffe3
+223 silly gentlyRm /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/ms-3e2d6a28 is being purged from base /mnt/d/Learn/Node.js/node-stream
+224 verbose gentlyRm don't care about contents; nuking /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/ms-3e2d6a28
+225 silly gentlyRm /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/debug-057be807 is being purged from base /mnt/d/Learn/Node.js/node-stream
+226 verbose gentlyRm don't care about contents; nuking /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/debug-057be807
+227 silly gentlyRm /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/socket.io-parser-0ccfffe3 is being purged from base /mnt/d/Learn/Node.js/node-stream
+228 verbose gentlyRm don't care about contents; nuking /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/socket.io-parser-0ccfffe3
+229 verbose tar unpack /home/wish9919/.npm/ms/2.0.0/package.tgz
+230 verbose tar unpacking to /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/ms-3e2d6a28
+231 silly gentlyRm /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/ms-3e2d6a28 is being purged
+232 verbose gentlyRm don't care about contents; nuking /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/ms-3e2d6a28
+233 verbose tar unpack /home/wish9919/.npm/debug/3.1.0/package.tgz
+234 verbose tar unpacking to /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/debug-057be807
+235 silly gentlyRm /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/debug-057be807 is being purged
+236 verbose gentlyRm don't care about contents; nuking /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/debug-057be807
+237 verbose unbuild node_modules/.staging/socket.io-client-32c16dd1
+238 verbose unbuild node_modules/.staging/socket.io-d47d88d5
+239 verbose tar unpack /home/wish9919/.npm/socket.io-parser/3.3.0/package.tgz
+240 verbose tar unpacking to /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/socket.io-parser-0ccfffe3
+241 silly gentlyRm /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/socket.io-parser-0ccfffe3 is being purged
+242 verbose gentlyRm don't care about contents; nuking /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/socket.io-parser-0ccfffe3
+243 silly gunzTarPerm modes [ '755', '644' ]
+244 silly gunzTarPerm modes [ '755', '644' ]
+245 silly gunzTarPerm modes [ '755', '644' ]
+246 silly gentlyRm /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/socket.io-client-32c16dd1 is being purged from base /mnt/d/Learn/Node.js/node-stream
+247 verbose gentlyRm don't care about contents; nuking /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/socket.io-client-32c16dd1
+248 silly gentlyRm /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/socket.io-d47d88d5 is being purged from base /mnt/d/Learn/Node.js/node-stream
+249 verbose gentlyRm don't care about contents; nuking /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/socket.io-d47d88d5
+250 verbose tar unpack /home/wish9919/.npm/socket.io-client/2.3.0/package.tgz
+251 verbose tar unpacking to /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/socket.io-client-32c16dd1
+252 silly gentlyRm /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/socket.io-client-32c16dd1 is being purged
+253 verbose gentlyRm don't care about contents; nuking /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/socket.io-client-32c16dd1
+254 verbose tar unpack /home/wish9919/.npm/socket.io/2.3.0/package.tgz
+255 verbose tar unpacking to /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/socket.io-d47d88d5
+256 silly gentlyRm /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/socket.io-d47d88d5 is being purged
+257 verbose gentlyRm don't care about contents; nuking /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/socket.io-d47d88d5
+258 silly gunzTarPerm modes [ '755', '644' ]
+259 silly gunzTarPerm modes [ '755', '644' ]
+260 silly gunzTarPerm extractEntry package.json
+261 silly gunzTarPerm extractEntry package.json
+262 silly gunzTarPerm extractEntry package.json
+263 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+264 silly gunzTarPerm extractEntry package.json
+265 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+266 silly gunzTarPerm extractEntry package.json
+267 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+268 silly gunzTarPerm extractEntry index.js
+269 silly gunzTarPerm extractEntry license.md
+270 silly gunzTarPerm extractEntry binary.js
+271 silly gunzTarPerm modified mode [ 'binary.js', 436, 420 ]
+272 silly gunzTarPerm extractEntry index.js
+273 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+274 silly gunzTarPerm extractEntry .npmignore
+275 silly gunzTarPerm extractEntry README.md
+276 silly gunzTarPerm extractEntry LICENSE
+277 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+278 silly gunzTarPerm extractEntry README.md
+279 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+280 silly gunzTarPerm extractEntry LICENSE
+281 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+282 silly gunzTarPerm extractEntry Readme.md
+283 silly gunzTarPerm modified mode [ 'Readme.md', 436, 420 ]
+284 silly gunzTarPerm extractEntry readme.md
+285 silly gunzTarPerm extractEntry is-buffer.js
+286 silly gunzTarPerm modified mode [ 'is-buffer.js', 436, 420 ]
+287 silly gunzTarPerm extractEntry LICENSE
+288 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+289 silly gunzTarPerm extractEntry Readme.md
+290 silly gunzTarPerm modified mode [ 'Readme.md', 436, 420 ]
+291 silly gunzTarPerm extractEntry dist/socket.io.dev.js
+292 silly gunzTarPerm modified mode [ 'dist/socket.io.dev.js', 436, 420 ]
+293 silly gunzTarPerm extractEntry LICENSE
+294 silly gunzTarPerm extractEntry dist/socket.io.dev.js.map
+295 silly gunzTarPerm modified mode [ 'dist/socket.io.dev.js.map', 436, 420 ]
+296 silly gunzTarPerm extractEntry lib/client.js
+297 silly gunzTarPerm modified mode [ 'lib/client.js', 436, 420 ]
+298 silly gunzTarPerm extractEntry karma.conf.js
+299 silly gunzTarPerm extractEntry node.js
+300 silly gunzTarPerm extractEntry .eslintrc
+301 silly gunzTarPerm extractEntry lib/index.js
+302 silly gunzTarPerm modified mode [ 'lib/index.js', 436, 420 ]
+303 silly gunzTarPerm extractEntry lib/namespace.js
+304 silly gunzTarPerm modified mode [ 'lib/namespace.js', 436, 420 ]
+305 silly gunzTarPerm extractEntry Makefile
+306 silly gunzTarPerm extractEntry dist/socket.io.js
+307 silly gunzTarPerm modified mode [ 'dist/socket.io.js', 436, 420 ]
+308 silly gunzTarPerm extractEntry lib/parent-namespace.js
+309 silly gunzTarPerm modified mode [ 'lib/parent-namespace.js', 436, 420 ]
+310 silly gunzTarPerm extractEntry lib/socket.js
+311 silly gunzTarPerm modified mode [ 'lib/socket.js', 436, 420 ]
+312 silly gunzTarPerm extractEntry .coveralls.yml
+313 silly gunzTarPerm extractEntry .travis.yml
+314 silly gunzTarPerm extractEntry dist/socket.io.js.map
+315 silly gunzTarPerm modified mode [ 'dist/socket.io.js.map', 436, 420 ]
+316 silly gunzTarPerm extractEntry CHANGELOG.md
+317 silly gunzTarPerm extractEntry src/browser.js
+318 silly gentlyRm /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/ms-3e2d6a28/node_modules is being purged
+319 verbose gentlyRm don't care about contents; nuking /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/ms-3e2d6a28/node_modules
+320 silly gunzTarPerm extractEntry src/debug.js
+321 silly gunzTarPerm extractEntry src/index.js
+322 silly gunzTarPerm extractEntry dist/socket.io.slim.dev.js
+323 silly gunzTarPerm modified mode [ 'dist/socket.io.slim.dev.js', 436, 420 ]
+324 silly gunzTarPerm extractEntry src/node.js
+325 silly gunzTarPerm extractEntry dist/socket.io.slim.dev.js.map
+326 silly gunzTarPerm modified mode [ 'dist/socket.io.slim.dev.js.map', 436, 420 ]
+327 silly gentlyRm /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/socket.io-parser-0ccfffe3/node_modules is being purged
+328 verbose gentlyRm don't care about contents; nuking /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/socket.io-parser-0ccfffe3/node_modules
+329 silly gunzTarPerm extractEntry dist/socket.io.slim.js
+330 silly gunzTarPerm modified mode [ 'dist/socket.io.slim.js', 436, 420 ]
+331 silly gunzTarPerm extractEntry dist/socket.io.slim.js.map
+332 silly gunzTarPerm modified mode [ 'dist/socket.io.slim.js.map', 436, 420 ]
+333 silly gentlyRm /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/socket.io-d47d88d5/node_modules is being purged
+334 verbose gentlyRm don't care about contents; nuking /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/socket.io-d47d88d5/node_modules
+335 silly gunzTarPerm extractEntry lib/index.js
+336 silly gunzTarPerm modified mode [ 'lib/index.js', 436, 420 ]
+337 silly gunzTarPerm extractEntry lib/manager.js
+338 silly gunzTarPerm modified mode [ 'lib/manager.js', 436, 420 ]
+339 silly gunzTarPerm extractEntry lib/on.js
+340 silly gunzTarPerm modified mode [ 'lib/on.js', 436, 420 ]
+341 silly gunzTarPerm extractEntry lib/socket.js
+342 silly gunzTarPerm modified mode [ 'lib/socket.js', 436, 420 ]
+343 silly gunzTarPerm extractEntry lib/url.js
+344 silly gunzTarPerm modified mode [ 'lib/url.js', 436, 420 ]
+345 silly gentlyRm /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/debug-057be807/node_modules is being purged
+346 verbose gentlyRm don't care about contents; nuking /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/debug-057be807/node_modules
+347 silly gentlyRm /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/socket.io-client-32c16dd1/node_modules is being purged
+348 verbose gentlyRm don't care about contents; nuking /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/socket.io-client-32c16dd1/node_modules
+349 silly doParallel preinstall 5
+350 silly preinstall ms@2.0.0 /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/ms-3e2d6a28
+351 info lifecycle ms@2.0.0~preinstall: ms@2.0.0
+352 silly preinstall debug@3.1.0 /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/debug-057be807
+353 info lifecycle debug@3.1.0~preinstall: debug@3.1.0
+354 silly preinstall socket.io-parser@3.3.0 /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/socket.io-parser-0ccfffe3
+355 info lifecycle socket.io-parser@3.3.0~preinstall: socket.io-parser@3.3.0
+356 silly preinstall socket.io-client@2.3.0 /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/socket.io-client-32c16dd1
+357 info lifecycle socket.io-client@2.3.0~preinstall: socket.io-client@2.3.0
+358 silly preinstall socket.io@2.3.0 /mnt/d/Learn/Node.js/node-stream/node_modules/.staging/socket.io-d47d88d5
+359 info lifecycle socket.io@2.3.0~preinstall: socket.io@2.3.0
+360 silly lifecycle ms@2.0.0~preinstall: no script for preinstall, continuing
+361 silly lifecycle debug@3.1.0~preinstall: no script for preinstall, continuing
+362 silly lifecycle socket.io-parser@3.3.0~preinstall: no script for preinstall, continuing
+363 silly lifecycle socket.io-client@2.3.0~preinstall: no script for preinstall, continuing
+364 silly lifecycle socket.io@2.3.0~preinstall: no script for preinstall, continuing
+365 silly doReverseSerial remove 0
+366 silly doSerial move 0
+367 silly doSerial finalize 5
+368 silly finalize /mnt/d/Learn/Node.js/node-stream/node_modules/socket.io-client/node_modules/ms
+369 silly finalize /mnt/d/Learn/Node.js/node-stream/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules/debug
+370 silly finalize /mnt/d/Learn/Node.js/node-stream/node_modules/socket.io-client/node_modules/socket.io-parser
+371 silly finalize /mnt/d/Learn/Node.js/node-stream/node_modules/socket.io-client
+372 silly finalize /mnt/d/Learn/Node.js/node-stream/node_modules/socket.io
+373 verbose unlock done using /home/wish9919/.npm/_locks/staging-200f7f67931dca78.lock for /mnt/d/Learn/Node.js/node-stream/node_modules/.staging
+374 silly rollbackFailedOptional Starting
+375 silly rollbackFailedOptional Finishing
+376 silly runTopLevelLifecycles Starting
+377 silly runTopLevelLifecycles Finishing
+378 silly install printInstalled
+379 warn ws@7.2.3 requires a peer of bufferutil@^4.0.1 but none was installed.
+380 warn ws@7.2.3 requires a peer of utf-8-validate@^5.0.2 but none was installed.
+381 warn node-stream@1.0.0 No description
+382 warn node-stream@1.0.0 No repository field.
+383 verbose stack Error: EACCES: permission denied, rename '/mnt/d/Learn/Node.js/node-stream/node_modules/socket.io' -> '/mnt/d/Learn/Node.js/node-stream/node_modules/.socket.io.DELETE'
+383 verbose stack     at moveAway (/usr/share/npm/lib/install/action/finalize.js:38:5)
+383 verbose stack     at destStatted (/usr/share/npm/lib/install/action/finalize.js:27:7)
+383 verbose stack     at FSReqWrap.oncomplete (fs.js:153:5)
+383 verbose stack
+383 verbose stack Error: EACCES: permission denied, rename '/mnt/d/Learn/Node.js/node-stream/node_modules/socket.io' -> '/mnt/d/Learn/Node.js/node-stream/node_modules/.socket.io.DELETE'
+384 verbose cwd /mnt/d/Learn/Node.js/node-stream
+385 error Linux 4.4.0-18362-Microsoft
+386 error argv "/usr/bin/node" "/usr/bin/npm" "install"
+387 error node v8.10.0
+388 error npm  v3.5.2
+389 error path /mnt/d/Learn/Node.js/node-stream/node_modules/socket.io
+390 error code EACCES
+391 error errno -13
+392 error syscall rename
+393 error Error: EACCES: permission denied, rename '/mnt/d/Learn/Node.js/node-stream/node_modules/socket.io' -> '/mnt/d/Learn/Node.js/node-stream/node_modules/.socket.io.DELETE'
+393 error     at moveAway (/usr/share/npm/lib/install/action/finalize.js:38:5)
+393 error     at destStatted (/usr/share/npm/lib/install/action/finalize.js:27:7)
+393 error     at FSReqWrap.oncomplete (fs.js:153:5)
+393 error
+393 error Error: EACCES: permission denied, rename '/mnt/d/Learn/Node.js/node-stream/node_modules/socket.io' -> '/mnt/d/Learn/Node.js/node-stream/node_modules/.socket.io.DELETE'
+393 error  { Error: EACCES: permission denied, rename '/mnt/d/Learn/Node.js/node-stream/node_modules/socket.io' -> '/mnt/d/Learn/Node.js/node-stream/node_modules/.socket.io.DELETE'
+393 error     at moveAway (/usr/share/npm/lib/install/action/finalize.js:38:5)
+393 error     at destStatted (/usr/share/npm/lib/install/action/finalize.js:27:7)
+393 error     at FSReqWrap.oncomplete (fs.js:153:5)
+393 error
+393 error Error: EACCES: permission denied, rename '/mnt/d/Learn/Node.js/node-stream/node_modules/socket.io' -> '/mnt/d/Learn/Node.js/node-stream/node_modules/.socket.io.DELETE' parent: 'node-stream' }
+394 error Please try running this command again as root/Administrator.
+395 verbose exit [ -13, true ]
